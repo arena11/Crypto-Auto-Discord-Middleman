@@ -34,7 +34,7 @@ const discordIds = {
 }
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildPresences, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMessages] });
-client.login('discordToken'); // discordToken
+client.login('MTMwMjc0NDE1NjYyMzYwNTgwMA.Ghj08y.elVEeoH8edgbDme2yBzzdj5ZWoT2pRtG1UWqlU'); // discordToken
 
 client.once(Events.ClientReady, async c => {
 	console.log(`Discord Client Ready! Logged in as ${c.user.tag}`);
